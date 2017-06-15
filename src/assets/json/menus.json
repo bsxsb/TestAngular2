@@ -1,0 +1,19 @@
+{
+  "menu": [
+    {
+      "text": "Dashboard",
+      "link": "/dashboard",
+      "icon": "icon-home"
+    },
+    {
+      "text": "Monitor",
+      "link": "/monitor",
+      "icon": "icon-graph"
+    },
+    {
+      "text": "Matrix",
+      "link": "/matrix",
+      "icon": "icon-graph"
+    }
+  ]
+}
