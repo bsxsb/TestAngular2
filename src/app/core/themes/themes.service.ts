@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 
 declare const require: any;
-const themeA = require('../../../assets/css/theme-a.css');
-const themeB = require('../../../assets/css/theme-b.css');
-const themeC = require('../../../assets/css/theme-c.css');
-const themeD = require('../../../assets/css/theme-d.css');
-const themeE = require('../../../assets/css/theme-e.css');
-const themeF = require('../../../assets/css/theme-f.css');
-const themeG = require('../../../assets/css/theme-g.css');
-const themeH = require('../../../assets/css/theme-h.css');
+const themeA = require('../../../assets/styles/theme-a.scss');
+const themeB = require('../../../assets/styles/theme-b.scss');
+const themeC = require('../../../assets/styles/theme-c.scss');
+const themeD = require('../../../assets/styles/theme-d.scss');
+const themeE = require('../../../assets/styles/theme-e.scss');
+const themeF = require('../../../assets/styles/theme-f.scss');
+const themeG = require('../../../assets/styles/theme-g.scss');
+const themeH = require('../../../assets/styles/theme-h.scss');
 
 @Injectable()
 export class ThemesService {
